@@ -9,8 +9,10 @@ build/
 .ipynb_checkpoints/
 .DS_Store
 
-# Data (too large for GitHub)
-data/
+# Data (too large for GitHub, keep folder structure via .gitkeep)
+data/**/*
+!data/**/
+!data/**/.gitkeep
 
 # Outputs: only keep clustering_result.csv per dataset
 outputs/**/*
