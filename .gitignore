@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+.ipynb_checkpoints/
+.DS_Store
+
+# Data (too large for GitHub)
+data/
+
+# Outputs: only keep clustering_result.csv per dataset
+outputs/**/*
+!outputs/*/
+!outputs/*/clustering_result.csv
